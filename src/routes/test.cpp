@@ -10,6 +10,8 @@ void test() {
     // declare initial conditions
     //PIDDataSet TestPara={4,0.1,0.2};
     PIDDataSet TestPara={1.5,0.1,0.15};
+    /*
+    */
     MoveEncoderPID(TestPara, 100, 36 , 0.4,0,true);
     MoveEncoderPID(TestPara, 30, 10, 0.4,0,true);
     Clamp.set(false);
